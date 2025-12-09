@@ -17,6 +17,7 @@ const gastoSchema = new mongoose.Schema({
   precio: { type: Number, required: true },
   categoria: { type: String, required: true },
   local: String,
+    descripcion: String,
   fecha: { type: Date, default: Date.now }
 });
 
